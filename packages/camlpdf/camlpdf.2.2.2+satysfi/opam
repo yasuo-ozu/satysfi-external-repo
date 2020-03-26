@@ -6,10 +6,11 @@ maintainer: [
 authors: [
   "John Whitington"
   "gfngfn"
+  "yasuo-ozu"
 ]
-homepage: "https://github.com/gfngfn/camlpdf"
-bug-reports: "https://github.com/gfngfn/camlpdf/issues"
-dev-repo: "git+https://github.com/gfngfn/camlpdf.git"
+homepage: "https://github.com/yasuo-ozu/camlpdf"
+bug-reports: "https://github.com/yasuo-ozu/camlpdf/issues"
+dev-repo: "git+https://github.com/yasuo-ozu/camlpdf.git"
 build: [[make]]
 install: [[make "install"]]
 remove: [["ocamlfind" "remove" "camlpdf"]]
@@ -25,6 +26,6 @@ This version is a fork of it for [SATySFi].
   [SATySFi]: https://github.com/gfngfn/SATySFi"""
 flags: light-uninstall
 url {
-  src: "https://github.com/gfngfn/camlpdf/archive/v2.2.2+satysfi.tar.gz"
+  src: "https://github.com/yasuo-ozu/camlpdf/archive/v2.2.2+satysfi.tar.gz"
   checksum: "df44cf96bd22252938a413ad038b8227"
 }
