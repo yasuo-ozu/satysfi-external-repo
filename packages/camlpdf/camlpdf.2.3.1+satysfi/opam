@@ -1,0 +1,31 @@
+opam-version: "2.0"
+maintainer: [
+  "@gfngfn"
+  "Takuma Ishikawa <nekketsuuu@gmail.com>"
+]
+authors: [
+  "John Whitington"
+  "gfngfn"
+  "yasuo-ozu"
+]
+homepage: "https://github.com/yasuo-ozu/camlpdf"
+bug-reports: "https://github.com/yasuo-ozu/camlpdf/issues"
+dev-repo: "git+https://github.com/yasuo-ozu/camlpdf.git"
+build: [[make]]
+install: [[make "install"]]
+remove: [["ocamlfind" "remove" "camlpdf"]]
+depends: [
+  "ocaml"
+  "ocamlfind"
+]
+synopsis: "Read, write and modify PDF files"
+description: """
+Camlpdf is originally published by John Whitington.
+This version is a fork of it for [SATySFi].
+
+  [SATySFi]: https://github.com/gfngfn/SATySFi"""
+flags: light-uninstall
+url {
+  src: "https://github.com/yasuo-ozu/camlpdf/archive/v2.3.1+satysfi.tar.gz"
+  checksum: "df44cf96bd22252938a413ad038b8227"
+}
